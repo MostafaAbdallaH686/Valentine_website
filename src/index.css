@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* ── Base typography ── */
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Pacifico for display headings */
+.font-display {
+  font-family: "Pacifico", cursive;
+}
+
+/* ── Smooth scroll & selection ── */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #f9a8d4;
+  color: #831843;
+}
+
+/* ── Prevent content shift on scrollbar ── */
+body {
+  overflow-x: hidden;
+}
